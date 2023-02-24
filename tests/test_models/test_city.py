@@ -1,6 +1,6 @@
 #!/usr/bin.python3
 """
-    Module of Unittests for models/base_model.py
+    Module of Unittests for models/city.py
 
 """
 
@@ -13,9 +13,9 @@ import models
 from unittest.mock import patch
 import uuid
 
-class Test_Amenity(unittest.TestCase):
+class Test_City(unittest.TestCase):
     """
-        Tests of the subclass Amenity, it inherit from BaseModel.
+        Tests of the subclass City, it inherit from BaseModel.
     """
 
     def test_NameAttribut(self):

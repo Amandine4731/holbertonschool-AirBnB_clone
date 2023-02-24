@@ -9,7 +9,7 @@ from models.base_model import BaseModel
 from models.review import Review
 from models.engine.file_storage import FileStorage
 
-class Test_User(unittest.TestCase):
+class Test_Review(unittest.TestCase):
     """
         Tests of the subclass Review, it inherit from BaseModel
     """

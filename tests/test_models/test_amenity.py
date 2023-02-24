@@ -23,7 +23,7 @@ class Test_Amenity(unittest.TestCase):
         # test value of attribut
         self.assertEqual(am1.name, "air conditioning")
 
-    def test_user(self):
+    def test_amenity(self):
         """ checks Amenity's attributes """
         self.assertEqual(str, type(Amenity.name))
 
