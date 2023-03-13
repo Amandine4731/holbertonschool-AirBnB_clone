@@ -27,7 +27,7 @@ class Test_State(unittest.TestCase):
         # test value of attribut
         self.assertEqual(self.name, "Occitanie")
 
-    def test_user(self):
+    def test_State(self):
         # test state name """
         self.assertEqual(str, type(State.name))
 

@@ -11,7 +11,7 @@ from models.engine.file_storage import FileStorage
 import models
 import datetime
 
-class Test_User(unittest.TestCase):
+class Test_Place(unittest.TestCase):
     """
         Tests of the subclass Place, it inherit from BaseModel
     """
